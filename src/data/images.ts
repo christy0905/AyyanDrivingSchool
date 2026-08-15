@@ -1,0 +1,25 @@
+export const images = {
+  logo: "/assets/logo.png",
+  hero: "https://images.pexels.com/photos/9518244/pexels-photo-9518244.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  about: "https://images.pexels.com/photos/19477337/pexels-photo-19477337.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  inCarDriving: "https://images.pexels.com/photos/1405666/pexels-photo-1405666.png?auto=compress&cs=tinysrgb&w=1200",
+  beginner: "https://images.pexels.com/photos/13513968/pexels-photo-13513968.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  roadTraining: "https://images.pexels.com/photos/19665043/pexels-photo-19665043.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  parking: "https://images.pexels.com/photos/11382843/pexels-photo-11382843.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  highway: "https://images.pexels.com/photos/21909007/pexels-photo-21909007.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  defensive: "https://images.pexels.com/photos/18366975/pexels-photo-18366975.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  refresher: "https://images.pexels.com/photos/5199686/pexels-photo-5199686.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  licence: "https://images.pexels.com/photos/32782078/pexels-photo-32782078.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  gallery1: "https://images.pexels.com/photos/9518019/pexels-photo-9518019.jpeg?auto=compress&cs=tinysrgb&w=900",
+  gallery2: "https://images.pexels.com/photos/27667633/pexels-photo-27667633.jpeg?auto=compress&cs=tinysrgb&w=900",
+  gallery3: "https://images.pexels.com/photos/13633258/pexels-photo-13633258.jpeg?auto=compress&cs=tinysrgb&w=900",
+  gallery4: "https://images.pexels.com/photos/6395233/pexels-photo-6395233.jpeg?auto=compress&cs=tinysrgb&w=900",
+  gallery5: "https://images.pexels.com/photos/8033643/pexels-photo-8033643.jpeg?auto=compress&cs=tinysrgb&w=900",
+  gallery6: "https://images.pexels.com/photos/13470214/pexels-photo-13470214.jpeg?auto=compress&cs=tinysrgb&w=900",
+  instructor1: "https://images.pexels.com/photos/4606347/pexels-photo-4606347.jpeg?auto=compress&cs=tinysrgb&w=800",
+  instructor2: "https://images.pexels.com/photos/5540309/pexels-photo-5540309.jpeg?auto=compress&cs=tinysrgb&w=800",
+  instructor3: "https://images.pexels.com/photos/15487495/pexels-photo-15487495.jpeg?auto=compress&cs=tinysrgb&w=800",
+  instructor4: "https://images.pexels.com/photos/11484629/pexels-photo-11484629.jpeg?auto=compress&cs=tinysrgb&w=800",
+};
+
+export type ImageKey = keyof typeof images;
